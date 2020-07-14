@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeScreen">
+
+<TextView
+    android:id="@+id/welcome_message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="60dp"
+    android:text="Welcome"
+    android:layout_marginTop="160dp"
+    android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/manage_button"
+        android:text="Manage Database"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/pending_order_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="View pending orders"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/completed_order_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Completed orders"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/sign_out_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Sign out"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
